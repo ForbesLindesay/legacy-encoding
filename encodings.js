@@ -24,6 +24,7 @@ module.exports = [
   require('windows-1253'),
   require('windows-1254'),
   require('windows-1255'),
+  require('windows-1256'),
   require('windows-1257'),
   require('windows-1258'),
   require('windows-874'),

@@ -82,6 +82,7 @@ var text = legacy.decode(buf.toString('binary'), encoding);
  - cp1253
  - cp1254
  - cp1255
+ - cp1256
  - cp1257
  - cp1258
  - cp819
@@ -221,6 +222,7 @@ var text = legacy.decode(buf.toString('binary'), encoding);
  - windows-1253
  - windows-1254
  - windows-1255
+ - windows-1256
  - windows-1257
  - windows-1258
  - windows-874
@@ -230,6 +232,7 @@ var text = legacy.decode(buf.toString('binary'), encoding);
  - x-cp1253
  - x-cp1254
  - x-cp1255
+ - x-cp1256
  - x-cp1257
  - x-cp1258
  - x-mac-cyrillic
