@@ -11,14 +11,14 @@ Support as many legacy encodings as possible
 
 ## Usage
 
-### `legacy.encode(encoding, input, options)`
+### `legacy.encode(input, encoding, options)`
 
 This function takes a plain text string (the `input` parameter) and encodes it acording the `encoding`.  The return value is a 'byte string', i.e. a string of which each item represents an octet as per `encoding`.
 
 ```js
 var legacy = require('legacy-encoding');
 
-var encodedData = legacy.encode(encoding, text);
+var encodedData = legacy.encode(text, encoding);
 ```
 
 The optional `options` object and its `mode` property can be used to set the error mode.  For encoding, the error mode can be `'fatal'` (the default) or `'html'`.
@@ -26,7 +26,7 @@ The optional `options` object and its `mode` property can be used to set the err
 ```js
 var legacy = require('legacy-encoding');
 
-var encodedData = legacy.encode(text, {
+var encodedData = legacy.encode(text, encoding, {
   'mode': 'html'
 });
 // If `text` contains a symbol that cannot be represented in the encoding,
@@ -38,23 +38,23 @@ To get a node.js buffer rather than a binary string, just call the `Buffer` cons
 ```js
 var legacy = require('legacy-encoding');
 
-var buf = new Buffer(legacy.encode(encoding, text), 'binary');
+var buf = new Buffer(legacy.encode(text, encoding), 'binary');
 ```
 
-### `legacy.decode(encoding, input, options)`
+### `legacy.decode(input, encoding, options)`
 
 This function takes a byte string (the `input` parameter) and decodes it according to `encoding`.
 
 ```js
 var legacy = require('legacy-encoding');
 
-var text = legacy.decode(encoding, encodedData);
+var text = legacy.decode(encodedData, encoding);
 ```
 
 The optional `options` object and its `mode` property can be used to set the error mode. For decoding, the error mode can be `'replacement'` (the default) or `'fatal'`.
 
 ```js
-var text = windows1255.decode(encoding, encodedData, {
+var text = windows1255.decode(encodedData, encoding, {
   'mode': 'fatal'
 });
 // If `encodedData` contains an invalid byte for the encoding,
@@ -66,7 +66,7 @@ To usa a node.js buffer rather than a binary string, just call the `.toString('b
 ```js
 var legacy = require('legacy-encoding');
 
-var text = legacy.decode(encoding, buf.toString('binary'));
+var text = legacy.decode(buf.toString('binary'), encoding);
 ```
 
 ## Supported Encodings
