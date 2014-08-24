@@ -2,6 +2,11 @@
   "name": "legacy-encoding",
   "version": "0.0.0",
   "description": "Support as many legacy encodings as possible",
+  "files": [
+    "LICENSE",
+    "index.js",
+    "encodings.js"
+  ],
   "keywords": [
     "codec",
     "decoder",
