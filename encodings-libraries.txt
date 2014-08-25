@@ -15,6 +15,7 @@ iso-8859-8-i
 koi8-r
 koi8-u
 macintosh
+utf7
 windows-1250
 windows-1251
 windows-1252

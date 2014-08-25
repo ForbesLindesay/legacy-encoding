@@ -1,12 +1,7 @@
 'use strict';
 
 module.exports = [
-  require('ibm866'),
-  require('iso-8859-10'),
-  require('iso-8859-13'),
-  require('iso-8859-14'),
   require('iso-8859-15'),
-  require('iso-8859-16'),
   require('iso-8859-2'),
   require('iso-8859-3'),
   require('iso-8859-4'),
@@ -16,7 +11,6 @@ module.exports = [
   require('iso-8859-8'),
   require('iso-8859-8-i'),
   require('koi8-r'),
-  require('koi8-u'),
   require('macintosh'),
   require('windows-1250'),
   require('windows-1251'),
