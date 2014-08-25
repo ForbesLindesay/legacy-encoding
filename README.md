@@ -215,6 +215,7 @@ var text = legacy.decode(buf.toString('binary'), encoding);
  - sun_eu_greek
  - tis-620
  - us-ascii
+ - utf-7
  - visual
  - windows-1250
  - windows-1251

@@ -1,6 +1,12 @@
 'use strict'
 
-var encodings = require('./encodings.js');
+var encodings = require('./encodings.js').concat([
+  {
+    labels: ['utf-7'],
+    encode: require('utf7').encode,
+    decode: require('utf7').decode
+  }
+]);
 
 exports.labels = encodings.map(function (enc) {
   return enc.labels;
