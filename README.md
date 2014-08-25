@@ -119,18 +119,13 @@ var text = windows1255.decode(buffer, encoding, {
  - 936
  - 949
  - 950
- - _dbcs
- - _internal
- - _sbcs
  - ansi_x3.4-1968
  - ansix3.4
  - ansix3.41968
  - ansix3.41986
  - arabic
- - arabic
  - arabic8
  - armscii8
- - ascii
  - ascii
  - ascii8bit
  - asmo-708
@@ -154,22 +149,13 @@ var text = windows1255.decode(buffer, encoding, {
  - cp1162
  - cp1163
  - cp1250
- - cp1250
- - cp1251
  - cp1251
  - cp1252
- - cp1252
- - cp1253
  - cp1253
  - cp1254
- - cp1254
- - cp1255
  - cp1255
  - cp1256
- - cp1256
  - cp1257
- - cp1257
- - cp1258
  - cp1258
  - cp20866
  - cp21866
@@ -193,7 +179,6 @@ var text = windows1255.decode(buffer, encoding, {
  - cp737
  - cp775
  - cp808
- - cp819
  - cp819
  - cp850
  - cp852
@@ -254,29 +239,18 @@ var text = windows1255.decode(buffer, encoding, {
  - csiso88598e
  - csiso88598i
  - csisolatin1
- - csisolatin1
- - csisolatin2
  - csisolatin2
  - csisolatin3
- - csisolatin3
  - csisolatin4
- - csisolatin4
- - csisolatin5
  - csisolatin5
  - csisolatin6
  - csisolatin9
  - csisolatinarabic
- - csisolatinarabic
- - csisolatincyrillic
  - csisolatincyrillic
  - csisolatingreek
- - csisolatingreek
  - csisolatinhebrew
- - csisolatinhebrew
- - cskoi8r
  - cskoi8r
  - csksc56011987
- - csmacintosh
  - csmacintosh
  - cspc775baltic
  - cspc850multilingual
@@ -285,7 +259,6 @@ var text = windows1255.decode(buffer, encoding, {
  - cspcp852
  - csshiftjis
  - cyrillic
- - cyrillic
  - dos-874
  - ecma-114
  - ecma-118
@@ -293,6 +266,7 @@ var text = windows1255.decode(buffer, encoding, {
  - ecma118
  - elot928
  - elot_928
+ - euc-jp
  - euccn
  - eucjp
  - euckr
@@ -305,10 +279,7 @@ var text = windows1255.decode(buffer, encoding, {
  - georgianacademy
  - georgianps
  - greek
- - greek
  - greek8
- - greek8
- - hebrew
  - hebrew
  - hebrew8
  - hex
@@ -329,7 +300,6 @@ var text = windows1255.decode(buffer, encoding, {
  - ibm775
  - ibm808
  - ibm819
- - ibm819
  - ibm850
  - ibm852
  - ibm855
@@ -346,6 +316,8 @@ var text = windows1255.decode(buffer, encoding, {
  - ibm869
  - ibm878
  - ibm922
+ - iso-2022-jp
+ - iso-2022-jp-1
  - iso-8859-1
  - iso-8859-11
  - iso-8859-15
@@ -370,6 +342,7 @@ var text = windows1255.decode(buffer, encoding, {
  - iso-ir-138
  - iso-ir-144
  - iso-ir-148
+ - iso2022jp
  - iso646.irv
  - iso646cn
  - iso646jp
@@ -386,30 +359,19 @@ var text = windows1255.decode(buffer, encoding, {
  - iso8859-8
  - iso8859-9
  - iso88591
- - iso88591
  - iso885910
- - iso885911
  - iso885911
  - iso885913
  - iso885914
  - iso885915
- - iso885915
  - iso885916
  - iso88592
- - iso88592
- - iso88593
  - iso88593
  - iso88594
- - iso88594
- - iso88595
  - iso88595
  - iso88596
- - iso88596
- - iso88597
  - iso88597
  - iso88598
- - iso88598
- - iso88599
  - iso88599
  - iso_8859-1
  - iso_8859-15
@@ -451,6 +413,7 @@ var text = windows1255.decode(buffer, encoding, {
  - isoir57
  - isoir58
  - isoir6
+ - jis
  - jisc62201969ro
  - jp
  - koi
@@ -466,31 +429,20 @@ var text = windows1255.decode(buffer, encoding, {
  - ksc56011987
  - ksc56011989
  - l1
- - l1
  - l10
  - l2
- - l2
- - l3
  - l3
  - l4
- - l4
- - l5
  - l5
  - l6
  - l7
  - l8
  - l9
- - l9
- - latin1
  - latin1
  - latin10
  - latin2
- - latin2
- - latin3
  - latin3
  - latin4
- - latin4
- - latin5
  - latin5
  - latin6
  - latin7
@@ -498,13 +450,11 @@ var text = windows1255.decode(buffer, encoding, {
  - latin9
  - logical
  - mac
- - mac
  - maccenteuro
  - maccroatian
  - maccyrillic
  - macgreek
  - maciceland
- - macintosh
  - macintosh
  - macroman
  - macromania
@@ -523,6 +473,7 @@ var text = windows1255.decode(buffer, encoding, {
  - r8
  - rk1048
  - roman8
+ - shift_jis
  - shiftjis
  - sjis
  - strk10482002
@@ -539,11 +490,14 @@ var text = windows1255.decode(buffer, encoding, {
  - tis6200
  - turkish
  - turkish8
+ - ucs-2
  - ucs2
+ - unicode
  - unicode11utf8
  - us
  - us-ascii
  - usascii
+ - utf-16le
  - utf16
  - utf16be
  - utf16le
