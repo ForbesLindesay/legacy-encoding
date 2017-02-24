@@ -1,5 +1,7 @@
 # legacy-encoding
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/legacy-encoding.svg)](https://greenkeeper.io/)
+
 Support as many legacy encodings as possible
 
 [![Dependency Status](https://img.shields.io/david/ForbesLindesay/legacy-encoding.svg)](https://david-dm.org/ForbesLindesay/legacy-encoding)
